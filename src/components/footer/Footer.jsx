@@ -28,7 +28,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-            <p className="mb-0">© 2023 Lana - All Rights Reserved - <a href="#!" className="text-gray-400">Terms of Service</a></p>
+            <p className="mb-0">© 2024 Precise - All Rights Reserved - <a href="#!" className="text-gray-400">Terms of Service</a></p>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { image } from '../../assets'
 
 const Home = () => {
   return (
-    <section className="ln-section d-flex js-min-vh-100" id='home' >
+    <section className="ln-section d-flex js-min-vh-100" id='home' data-aos='fade-up' data-aos-delay='300'>
       <div className="overlay overlay-advanced">
         <div className="overlay-inner bg-image-holder bg-cover bg-bottom-center">
           <img src={image} alt="background" />
