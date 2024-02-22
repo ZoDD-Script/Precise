@@ -8,7 +8,7 @@ const Mission = () => {
         <div className="row">
           <div className="col-12 col-xl-6">
             <h2 className="mb-4 " data-animation="fadeInUp" data-animation-delay="150">Our Mission</h2>
-            <p className="" data-animation="fadeInUp" data-animation-delay="150">Mauris ut sem elementum, tristique velit sed, volutpat mauris. Ut interdum nibh sit amet imperdiet condimentum. Nulla sed tellus placerat, vehicula risus ac, sollicitudin quam. Quisque pharetra porta libero, a sagittis nisl tristique non. Etiam sapien purus, cursus eu pulvinar et, tempor sit amet ipsum. Sed a nisl sit amet lorem dictum hendrerit.</p>
+            <p className="" data-animation="fadeInUp" data-animation-delay="150">We endeavor to consistently deliver superior quality. Meticuouslycrafted LED lighting products to bot commercial and residetila cients. Our commitment permeates eveything we do, driving us to ceaselessly deliver new and improved LED lighting solutions.</p>
           </div>
         </div>
 

@@ -13,7 +13,7 @@ const Solutions = () => {
           <div className="row mb-8">
             <div className="col-12 col-xl-6">
               <h2 className="mb-4 " data-animation="fadeInUp">A complete marketing solution</h2>
-              <p className="animated" data-animation="fadeInUp" data-animation-delay="150">Mauris ut sem elementum, tristique velit sed, volutpat mauris. Ut interdum nibh sit amet imperdiet condimentum. Nulla sed tellus placerat, vehicula risus ac, sollicitudin quam. Quisque pharetra porta libero, a sagittis nisl tristique non.</p>
+              <p className="" data-animation="fadeInUp" data-animation-delay="150">Mauris ut sem elementum, tristique velit sed, volutpat mauris. Ut interdum nibh sit amet imperdiet condimentum. Nulla sed tellus placerat, vehicula risus ac, sollicitudin quam. Quisque pharetra porta libero, a sagittis nisl tristique non.</p>
             </div>
           </div>
           <div className="row">
