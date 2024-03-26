@@ -14,7 +14,7 @@ const Home = () => {
         <div className="row">
           <div className="col-12 col-lg-9 col-xl-6">
 
-            <h1 className="mb-4 " data-animation="fadeInUp">Lighting That Defines Your Style</h1>
+            <h1 className="mb-4" data-animation="fadeInUp">Lighting That Defines Your Style</h1>
             <p className="mb-7" data-animation="fadeInUp" data-animation-delay="200">We take pride in offering a comprehensive selection of products designed to cater to all your housing requirements, leaving no stone unturned in our pursuit to provide you with the perfect housing solution for every setting.</p>
             <a href="#our-mission" className="btn btn-white mr-3 scrollto" data-animation="fadeInUp" data-animation-delay="400">Learn more</a>
             {/* <button type="button" className="btn btn-soft-white scrollto" data-animation="fadeInUp" data-animation-delay="600" data-toggle="modal" data-target="#subscribeModal">Subscribe</button> */}
