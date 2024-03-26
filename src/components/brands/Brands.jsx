@@ -1,5 +1,5 @@
 import React from 'react'
-import { project } from '../../assets'
+import { focale, powerlift, preciselighting, project, rinnovo, swiftrise } from '../../assets'
 
 const Brands = () => {
   return (
@@ -21,7 +21,7 @@ const Brands = () => {
                     <a href={project} className="mfp-image">
                       <div className="media-container">
                         <div className="bg-image-holder bg-cover">
-                          <img src={project} alt="" />
+                          <img src={preciselighting} alt="" width={600} />
                         </div>
                       </div>
                     </a>
@@ -46,7 +46,7 @@ const Brands = () => {
                     <a href={project} className="mfp-image">
                       <div className="media-container">
                         <div className="bg-image-holder bg-cover">
-                          <img src={project} alt="" />
+                          <img src={rinnovo} alt="" width={600} />
                         </div>
                       </div>
                     </a>
@@ -71,7 +71,7 @@ const Brands = () => {
                     <a href={project} className="mfp-image">
                       <div className="media-container">
                         <div className="bg-image-holder bg-cover">
-                          <img src={project} alt="" />
+                          <img src={swiftrise} alt="" width={600} />
                         </div>
                       </div>
                     </a>
@@ -96,7 +96,7 @@ const Brands = () => {
                     <a href={project} className="mfp-image">
                       <div className="media-container">
                         <div className="bg-image-holder bg-cover">
-                          <img src={project} alt="" />
+                          <img src={powerlift} alt="" width={600} />
                         </div>
                       </div>
                     </a>
@@ -121,7 +121,7 @@ const Brands = () => {
                     <a href={project} className="mfp-image">
                       <div className="media-container">
                         <div className="bg-image-holder bg-cover">
-                          <img src={project} alt="" />
+                          <img src={focale} alt="" width={600} />
                         </div>
                       </div>
                     </a>
