@@ -80,7 +80,7 @@ const Brands = () => {
                 <div className="col-12 col-lg-5">
                   <div className="pt-lg-8">
                     <div className="divider divider-alt bg-dark mt-0 mb-8 d-none d-lg-block"></div>
-                    <h4 className="h3 item-title">SwiftRise</h4>
+                    <h4 className="h3 item-title">Swiftrise</h4>
                     <p className="item-cat">Redefining Elevation Solutions in Africa.</p>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ const Brands = () => {
                 <div className="col-12 col-lg-5">
                   <div className="pt-lg-8">
                     <div className="divider divider-alt bg-dark mt-0 mb-8 d-none d-lg-block"></div>
-                    <h4 className="h3 item-title">Focal</h4>
+                    <h4 className="h3 item-title">Focale</h4>
                     <p className="item-cat">The Developers Brand.</p>
                   </div>
                 </div>
