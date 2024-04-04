@@ -18,7 +18,7 @@ const Brands = () => {
               <div className="row">
                 <div className="col-12 col-lg-7 mb-4 mb-lg-0">
                   <div className="item-media">
-                    <a href={project} className="mfp-image">
+                    <a href='https://www.preciselighting.ng/' target='_blank' className="mfp-image">
                       <div className="media-container">
                         <div className="bg-image-holder bg-cover">
                           <img src={preciselighting} alt="" width={600} />
@@ -43,7 +43,7 @@ const Brands = () => {
               <div className="row flex-lg-row-reverse">
                 <div className="col-12 col-lg-7 mb-4 mb-lg-0">
                   <div className="item-media">
-                    <a href={project} className="mfp-image">
+                    <a href='https://www.rinnovo.ng/' target='_blank' className="mfp-image">
                       <div className="media-container">
                         <div className="bg-image-holder bg-cover">
                           <img src={rinnovo} alt="" width={600} />
@@ -54,7 +54,7 @@ const Brands = () => {
                 </div>
                 <div className="col-12 col-lg-5 d-lg-flex justify-content-lg-end text-lg-right">
                   <div className="pt-lg-8">
-                    <div className="divider divider-alt bg-dark mt-0 mb-8 ml-auto mr-0 d-none d-lg-block"></div>
+                    <div className="divider-alt bg-dark mt-0 mb-8 ml-auto mr-0 d-none d-lg-block"></div>
                     <h4 className="h3 item-title">Rinnovo</h4>
                     <p className="item-cat">Your leading source for innovative renewable energy solutions.</p>
                   </div>
@@ -68,7 +68,7 @@ const Brands = () => {
               <div className="row">
                 <div className="col-12 col-lg-7 mb-4 mb-lg-0">
                   <div className="item-media">
-                    <a href={project} className="mfp-image">
+                    <a href='https://www.swiftrise.ng/' target='_blank' className="mfp-image">
                       <div className="media-container">
                         <div className="bg-image-holder bg-cover">
                           <img src={swiftrise} alt="" width={600} />
@@ -93,7 +93,7 @@ const Brands = () => {
               <div className="row flex-lg-row-reverse">
                 <div className="col-12 col-lg-7 mb-4 mb-lg-0">
                   <div className="item-media">
-                    <a href={project} className="mfp-image">
+                    <a href='https://www.powerliftpro.ng/' target='_blank' className="mfp-image">
                       <div className="media-container">
                         <div className="bg-image-holder bg-cover">
                           <img src={powerlift} alt="" width={600} />
@@ -104,7 +104,7 @@ const Brands = () => {
                 </div>
                 <div className="col-12 col-lg-5 d-lg-flex justify-content-lg-end text-lg-right">
                   <div className="pt-lg-8">
-                    <div className="divider divider-alt bg-dark mt-0 mb-8 ml-auto mr-0 d-none d-lg-block"></div>
+                    <div className="divider-alt bg-dark mt-0 mb-8 ml-auto mr-0 d-none d-lg-block"></div>
                     <h4 className="h3 item-title">PowerLift Pro</h4>
                     <p className="item-cat">Elevating Fitness Standards Globally.</p>
                   </div>
@@ -118,7 +118,7 @@ const Brands = () => {
               <div className="row">
                 <div className="col-12 col-lg-7 mb-4 mb-lg-0">
                   <div className="item-media">
-                    <a href={project} className="mfp-image">
+                    <a href='https://zodd-script.github.io/Focal/' target='_blank' className="mfp-image">
                       <div className="media-container">
                         <div className="bg-image-holder bg-cover">
                           <img src={focale} alt="" width={600} />

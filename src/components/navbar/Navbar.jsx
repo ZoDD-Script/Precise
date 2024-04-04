@@ -7,7 +7,6 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      console.log(window.scrollY)
       if (window.scrollY >= 30) {
         setNavBarColor(true);
       } else {
@@ -22,6 +21,62 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  const handleDownload = async () => {
+    var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    var isChrome =
+      navigator.userAgent.toLowerCase().indexOf("CriOS") > -1 ||
+      navigator.vendor.toLowerCase().indexOf("google") > -1;
+    var iOSVersion = [];
+    if (iOS) {
+      iOSVersion = navigator.userAgent
+        .match(/OS [\d_]+/i)[0]
+        .substr(3)
+        .split("_")
+        .map((n) => parseInt(n));
+    }
+
+    var linkElement = document.createElement("a");
+    var contentType = "application/pdf";
+    try {
+      var hrefUrl = "";
+      var blob = "";
+      const response = await fetch('/images/PRECISE PROFILE.pdf');
+      if (response.ok) {
+        if (iOS && !isChrome && iOSVersion[0] <= 12) {
+          console.log("nvjh")
+          // blob = "data:application/pdf;base64," + pdfData;
+          const blob = await response.blob();
+          hrefUrl = blob;
+        } else {
+          if (iOS && !isChrome) {
+            console.log("nvjh")
+            contentType = "application/octet-stream";
+          }
+          let buffer = await response.arrayBuffer();
+          if(buffer){
+            console.log("nvjh")
+            var t = new Uint8Array(buffer)
+            blob = new Blob([t], { type: contentType });
+            hrefUrl = window.URL.createObjectURL(blob);
+          }
+        }
+        linkElement.setAttribute("href", hrefUrl);
+        linkElement.setAttribute("target", "_blank");
+        if ((iOS && (iOSVersion[0] > 12 || isChrome)) || !iOS) {
+          linkElement.setAttribute("download", "PRECISE PROFILE.pdf");
+        }
+        var clickEvent = new MouseEvent("click", {
+          view: window,
+          bubbles: true,
+          cancelable: false
+        });
+        linkElement.dispatchEvent(clickEvent);
+      }
+
+
+    } catch (ex) { console.log(ex)}
+  };
 
   return (
     <div>
@@ -71,7 +126,7 @@ const Navbar = () => {
           </ul>
 
           {/* <!-- Button --> */}
-          <button type="button" className="btn btn-primary d-block d-lg-inline-block ml-lg-3" data-toggle="modal" data-target="#documentationModal" data-on-navbar-light="btn-soft-secondary" data-on-navbar-dark="btn-soft-white">Profile</button>
+          <button type="button" className="btn btn-primary d-block d-lg-inline-block ml-lg-3" data-toggle="modal" data-target="#documentationModal" data-on-navbar-light="btn-soft-secondary" data-on-navbar-dark="btn-soft-white" onClick={() => handleDownload()}>Profile</button>
 
           {/* <!-- Button --> */}
           {/* <a className="btn btn-primary d-block d-lg-inline-block ml-lg-3" href="!#">Buy now</a> */}

@@ -11,6 +11,8 @@ import preciselighting from './PreciseLighting.jpg'
 import swiftrise from './Swiftrise.png'
 import rinnovo from './Rinnovo.png'
 import projectmin from './projectmin.jpg'
+import map from './map.jpg'
+import squirrel from './squirrel.jpg'
 
 export {
   logo,
@@ -26,4 +28,6 @@ export {
   preciselighting,
   swiftrise,
   rinnovo,
+  map,
+  squirrel,
 }

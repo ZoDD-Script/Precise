@@ -1,12 +1,11 @@
 import React from 'react'
+import { squirrel } from '../../assets'
 
 const Solutions = () => {
   return (
     <section className="ln-section d-xl-flex" data-anchor="our-solutions" data-tooltip="Our solutions" data-ui="light" data-navbar="navbar-dark" id='our-solutions'>
         <div className="overlay overlay-advanced">
-          <div className="overlay-inner bg-image-holder bg-cover">
-            <img src="../../assets/images/image-3.jpg" alt="background" />
-          </div>
+          <img src={squirrel} alt="background" className='background-image' />
           <div className="overlay-inner bg-dark opacity-50"></div>
         </div>
         <div className="container align-self-xl-center text-white">
