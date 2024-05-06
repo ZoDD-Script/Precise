@@ -1,38 +1,50 @@
 import React from 'react'
+import { socialMedia } from '../../constants'
+import { logo } from '../../assets'
+import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
-    <footer className="position-relative py-10 py-lg-12 bg-dark text-gray-500">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-10 col-xl-12 col-xxl-10 mx-auto text-center">
-            <ul className="list-inline mb-5">
-              <li className="list-inline-item mx-0">
-                <a className="btn btn-icon btn-text-secondary text-gray-400" href="#" tabIndex="0">
-                  <i className="fab fa-facebook-f btn-icon-inner"></i>
-                </a>
-              </li>
-              <li className="list-inline-item mx-0">
-                <a className="btn btn-icon btn-text-secondary text-gray-400" href="#" tabIndex="0">
-                  <i className="fab fa-twitter btn-icon-inner"></i>
-                </a>
-              </li>
-              <li className="list-inline-item mx-0">
-                <a className="btn btn-icon btn-text-secondary text-gray-400" href="#" tabIndex="0">
-                  <i className="fab fa-linkedin-in btn-icon-inner"></i>
-                </a>
-              </li>
-              <li className="list-inline-item mx-0">
-                <a className="btn btn-icon btn-text-secondary text-gray-400" href="#" tabIndex="0">
-                  <i className="fab fa-dribbble btn-icon-inner"></i>
-                </a>
-              </li>
-            </ul>
-            <p className="mb-0">© 2024 Precise - All Rights Reserved - <a href="#!" className="text-gray-400">Terms of Service</a></p>
+    <div className='footer_container'>
+      <div className="row">
+        <div className="col">
+          <img src={logo} alt="" className='logo' />
+          <p>At BELLA MAI DESIGNS by Precise, we don't just sell furniture and offer desig services; we provide a commitment - a commitment to quality, cretivity, and partnership. Join us in this journey to revolutionize furnitureand interior designs, where your vision is our mission.</p>
+        </div>
+        <div className="col">
+          <h3>Office <div className="underline"><span></span></div></h3>
+          <p>15A Emma Abimbola Cole</p>
+          <p>Lekki Phase 1</p>
+          <p>Lagos, Nigeria</p>
+          <p className="email_id">sales@preciselighting.com</p>
+          <h4>+234 - 9037944292</h4>
+        </div>
+        <div className="col">
+          <h3>Links <div className="underline"><span></span></div></h3>
+          <ul>
+            <li><Link className="nav-link" to="home" smooth={true} duration={500}>Home</Link></li>
+            <li><Link className="nav-link" to="our-mission" smooth={true} duration={500}>Our mission</Link></li>
+            <li><Link className="nav-link" to="what-we-do" smooth={true} duration={500}>What we do</Link></li>
+            <li><Link className="nav-link" to="our-solutions" smooth={true} duration={500}>Our solutions</Link></li>
+            <li><Link className="nav-link" to="our-work" smooth={true} duration={500}>Our work</Link></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div className="col">
+          <h3>Newsletter <div className="underline"><span></span></div></h3>
+          <form action="">
+            <input type="email" placeholder='Enter your email id' required />
+          </form>
+          <div className="social_icons">
+            {socialMedia.map((social, index) => (
+              <img key={social.id} src={social.icon} alt={social.id} className='' />
+            ))}
           </div>
         </div>
       </div>
-    </footer>
+      <hr />
+      <p className='copyright'>2024 © Precise - All Rights Reserved</p>
+    </div>
   )
 }
 
