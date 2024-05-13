@@ -7708,6 +7708,7 @@ button.bg-white:focus {
 .my-4 {
   margin-bottom: 1rem ;
   font-size: 3.5rem;
+  width: max-content;
 }
 
 .ml-4,
@@ -20347,7 +20348,7 @@ button.mfp-arrow.mfp-arrow-right::after {
 
 .row {
   width: 85%;
-  margin: auto;
+  /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
