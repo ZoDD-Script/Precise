@@ -1526,10 +1526,10 @@ pre code {
     max-width: 41.6666666667%;
   }
 
-  .col-xl-6 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
+  /* .col-xl-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  } */
 
   .col-xl-7 {
     flex: 0 0 58.3333333333%;
@@ -7708,7 +7708,6 @@ button.bg-white:focus {
 .my-4 {
   margin-bottom: 1rem ;
   font-size: 3.5rem;
-  /* width: max-content; */
 }
 
 .ml-4,
@@ -20324,9 +20323,8 @@ button.mfp-arrow.mfp-arrow-right::after {
 
 .background-image {
   width: 100%;
-  min-width: fit-content;
-  height: 100%;
-  object-fit: fill;
+  min-width: min-content;
+  height: 100%
 }
 
 .footer_container {
@@ -20348,7 +20346,7 @@ button.mfp-arrow.mfp-arrow-right::after {
 
 .row {
   width: 85%;
-  /* margin: auto; */
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;

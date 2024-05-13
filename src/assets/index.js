@@ -17,7 +17,7 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import preciseBG from "./preciseBG.jpg"
+import preciseBG from "./preciseBG.png"
 
 export {
   logo,
