@@ -1,11 +1,11 @@
 import React from 'react'
-import { squirrel } from '../../assets'
+import { preciseBG } from '../../assets'
 
 const Solutions = () => {
   return (
     <section className="ln-section d-xl-flex" data-anchor="our-solutions" data-tooltip="Our solutions" data-ui="light" data-navbar="navbar-dark" id='our-solutions'>
         <div className="overlay overlay-advanced">
-          <img src={squirrel} alt="background" className='background-image' />
+          <img src={preciseBG} alt="background" className='background-image' />
           <div className="overlay-inner bg-dark opacity-50"></div>
         </div>
         <div className="container align-self-xl-center text-white">
