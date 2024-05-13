@@ -7,7 +7,7 @@ const Brands = () => {
       <div className="container align-self-xl-center">
         <div className="row mb-8">
           <div className="col-12 col-xl-6">
-            <h2 className="mb-4 " data-animation="fadeInUp">Our Work</h2>
+            <h2 className="mb-4 " data-animation="fadeInUp">The Precise Brands</h2>
             <p className="" data-animation="fadeInUp" data-animation-delay="150">Donec sollicitudin libero vitae massa placerat tempor. Duis rutrum nisl eu ipsum varius, nec feugiat tortor vulputate. Integer pellentesque leo id metus dictum, a tristique tellus faucibus.</p>
           </div>
         </div>
