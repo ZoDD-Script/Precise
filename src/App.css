@@ -15963,9 +15963,9 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hov
   }
 }
 
-p:last-child {
+/* p:last-child {
   margin-bottom: 0;
-}
+} */
 
 ::selection {
   color: #fff;
@@ -20486,4 +20486,7 @@ hr {
   .col:nth-child(2), .col:nth-child(3) {
     flex-basis: 100%;
   }
+}
+.brands_intro {
+  margin-bottom: 3rem;
 }

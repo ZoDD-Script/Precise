@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="row">
         <div className="col">
           <img src={logo} alt="" className='logo' />
-          <p>At BELLA MAI DESIGNS by Precise, we don't just sell furniture and offer desig services; we provide a commitment - a commitment to quality, cretivity, and partnership. Join us in this journey to revolutionize furnitureand interior designs, where your vision is our mission.</p>
+          <p>We take pride in offering a comprehensive selection of products designed to cater to all your housing requirements, leaving no stone unturned in our pursuit to provide you with the perfect housing solution for every setting.</p>
         </div>
         <div className="col">
           <h3>Office <div className="underline"><span></span></div></h3>

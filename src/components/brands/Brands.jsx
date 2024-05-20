@@ -8,7 +8,7 @@ const Brands = () => {
         <div className="row mb-8">
           <div className="col-12 col-xl-6">
             <h2 className="mb-4 " data-animation="fadeInUp">The Precise Brands</h2>
-            <p className="" data-animation="fadeInUp" data-animation-delay="150">Donec sollicitudin libero vitae massa placerat tempor. Duis rutrum nisl eu ipsum varius, nec feugiat tortor vulputate. Integer pellentesque leo id metus dictum, a tristique tellus faucibus.</p>
+            <p className="brands_intro" data-animation="fadeInUp" data-animation-delay="150">Precise is a collective of innovative company dedicated to enhancing your living and working environment. We offer a variety of solutions under one roof, encompassing:</p>
           </div>
         </div>
         <div className="slider " data-animation="fadeInUp" data-animation-delay="300" data-slick='{"dots": true}'>
